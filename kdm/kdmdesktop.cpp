@@ -244,7 +244,7 @@ do_fancy_background()
      int i;
      int tmp;
      QFont f( "utopia", 72, QFont::Black );
-     QString title = "KDE Desktop Environment";
+     QString title = "Sangria Desktop Environment";
 
      for ( i=0; i<128; i++ )                   // build color table
 	  image.setColor( i, qRgb(0,0,i*3/4) );

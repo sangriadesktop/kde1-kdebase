@@ -7,3 +7,5 @@ autom4te.cache
 config.cache
 libtool
 build
+
+cmake-build-*

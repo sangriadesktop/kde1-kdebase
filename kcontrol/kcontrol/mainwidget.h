@@ -12,6 +12,7 @@
 #include <qregexp.h>
 #include <qpixmap.h>
 #include <kapp.h>
+#include <qimage.h>
 #include <stdio.h>
 #include <unistd.h>
 #include <sys/utsname.h>
@@ -27,9 +28,10 @@ class mainWidget : public QWidget
   
   private:   
   
-  QLabel *heading;   
-  QPixmap pmap;  
-  struct utsname info;  
+  QLabel *heading;
+  QImage image;
+  bool loadOK;
+  struct utsname info;
   
 protected:   
 
